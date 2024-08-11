@@ -1,0 +1,15 @@
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\bin\Debug\FileManagerRE.exe.config
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\bin\Debug\FileManagerRE.exe
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\bin\Debug\FileManagerRE.pdb
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\MainWindow.g.cs
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\App.g.cs
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\FileManagerRE_MarkupCompile.cache
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\FileManagerRE_MarkupCompile.lref
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\MainWindow.baml
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\FileManagerRE.g.resources
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\FileManagerRE.Properties.Resources.resources
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\FileManagerRE.csproj.GenerateResource.cache
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\FileManagerRE.csproj.CoreCompileInputs.cache
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\FileManagerRE.exe
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\FileManagerRE.pdb
+C:\Users\kliue\Documents\Portfolio\FileManagerRE\FileManagerRE\obj\Debug\FileManagerRE.csproj.AssemblyReference.cache

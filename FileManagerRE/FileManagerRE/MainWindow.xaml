@@ -1,0 +1,59 @@
+﻿<Window x:Class="FileManagerRE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileManagerRE"
+        mc:Ignorable="d"
+       Title="FileManagerRE" Height="400" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" x:Name="filePath"/>
+                <Button Grid.Column="1" Content="Back" x:Name="backButton" Click="backButton_Click"/>
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <ScrollViewer>
+                    <StackPanel>
+                        <ListView x:Name="allFileList" MouseDoubleClick="allFileList_MouseDoubleClick"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <ScrollViewer Grid.Column="0">
+                    <StackPanel>
+                        <TextBlock x:Name="infoFile"/>
+                    </StackPanel>
+                </ScrollViewer>
+               
+                <Button Grid.Column="1" Content="Clear" x:Name="clearButton" Click="clearButton_Click"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="1">
+            <StackPanel x:Name="previewPanel"/>
+        </Grid>
+    </Grid>
+</Window>
